@@ -1,1 +1,1 @@
-Esta é a pastar que será preenchida com o arquivo final do processo.
+Pasta para output.

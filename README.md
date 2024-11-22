@@ -13,11 +13,25 @@ Este projeto realiza a análise de dados de exportação para 2024, fazendo down
 ## Como Rodar o Projeto
 
 1. Clone o repositório em sua máquina local.
-2. Instale as dependências necessárias executando o seguinte comando:
+2. Crie um ambiente virtual para isolar as dependências do projeto, evitando conflitos com outras versões de bibliotecas que você possa ter instaladas globalmente. Para criar e ativar o ambiente virtual, siga os seguintes passos:
+
+   - **No Windows**:
+     ```bash
+     python -m venv venv
+     .\venv\Scripts\activate
+     ```
+   - **No Linux/Mac**:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate
+     ```
+
+3. Instale as dependências necessárias executando o seguinte comando:
    ```bash
    pip install -r requirements.txt
    ```
-3. Execute o arquivo `main.py` para rodar o processo de análise:
+
+4. Execute o arquivo `main.py` para rodar o processo de análise:
    ```bash
    python main.py
    ```
@@ -35,3 +49,4 @@ As dependências necessárias para rodar o projeto estão listadas no arquivo `r
 - `pandas`: Para manipulação de dados.
 - `requests`: Para realizar downloads dos arquivos CSV.
 
+---

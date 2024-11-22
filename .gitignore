@@ -2,6 +2,7 @@ Relatorio.pdf
 input\2024_validation.csv
 input\EXP_2024.csv
 output\dados_finais.csv
+venv-a3-dados
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
